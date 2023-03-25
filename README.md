@@ -21,4 +21,5 @@ This Python code scrapes data from any table contained in a website using Beauti
 ## Usage
 
 - run the `scraped_data.py`file.  It will scrape data from the website indicate at URL.
-- If there are a number of tables on the webpage you wish to scrape, indicate the desire tables number using indexing starting from 0 in the bracket located at `dframe`. 
+- If there are a number of tables on the webpage you wish to scrape, indicate the desire tables number using indexing starting from 0 in the bracket located at `dframe`.
+- once the scrape is done it will rename it with the current date and time the scrape occured and send an email to a designated email address.
