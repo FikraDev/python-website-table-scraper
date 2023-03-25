@@ -37,7 +37,7 @@ if scraped in chkfile:
      port = 465  # For SSL
      smtp_server = "smtp.gmail.com"
      sender_email = os.getenv('SENDER_EMAIL')  # Enter your address
-     receiver_email = "sachel.campbell@gmail.com"  # Enter receiver address
+     receiver_email = "myemail@email.com"  # Enter receiver address
      password = os.getenv('PASSWORD')
      message = """\
              Subject: New Web Scrape (Alert!!!)
